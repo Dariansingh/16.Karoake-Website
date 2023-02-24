@@ -1,0 +1,127 @@
+.navbar{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: -160px;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    /* transition: right 0.3s ease; */
+  }
+
+  .tabcontent {
+    position: relative;
+    
+  }
+  
+  .navbar:hover {
+    right: 0;
+    transition: right 0.3s ease;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  .navbar ul li ul {
+    position: relative;
+  }
+  
+  .navbar ul li{
+    display: none;
+    
+  }
+  .navbar:hover ul li{
+    display: block;
+    
+  }
+
+  .navbar li {
+    display: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .navbar:hover li {
+    display:block;
+    color: white;
+    border-top: 2px solid black;
+  }
+
+  .navbar li:hover {
+    font-size: 20px;
+    background-color: #444;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar:hover a {
+    display: inline-block;
+  }
+
+  /* Logos within the navbar*/
+  .navbar a img{
+      display: block;
+      width: 35px;
+      padding: 5px;
+  }
+
+  .navbar:hover a img{
+    display: inline-block;
+    width: 50px;
+    padding: 5px;
+}
+
+  /*  navbar h3 is the number    */
+  .navbar h3{
+    display: none;
+    color: white;
+    text-align: center;
+  }
+
+  .navbar:hover h3{
+    display: block;
+  }
+  
+  .navbar ul ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul ul li {
+    padding: 5px 0 5px 20px;
+  }
+  
+  .menu-btn-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 1;
+  }
+
+  .services-link .services-dropdown {
+    display: none;
+  }
+
+  .services-link:hover .services-dropdown {
+    display: inline;
+  }
+  
+  .social-media-container { 
+    margin-top: 10px;
+  }
+    
+  
