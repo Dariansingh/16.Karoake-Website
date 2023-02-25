@@ -5,6 +5,7 @@ import "../style/bios.css";
 
 function Bios() {
   const [biosData, setBiosData] = useState([]);
+  const [newDescription, setNewDescription] = useState('');
   const { id } = useParams();
 
   useEffect(() => {
@@ -18,6 +19,20 @@ function Bios() {
       });
   }, []);
 
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    const updatedBiosData = [...biosData];
+    updatedBiosData[id].description += '\n' + newDescription; // concatenate new text with existing text
+    setBiosData(updatedBiosData);
+    setNewDescription('');
+  };
+
+  const handleDeleteButtonClick = () => {
+    const updatedBiosData = [...biosData];
+    updatedBiosData[id].description = '';
+    setBiosData(updatedBiosData);
+  };
+
   return (
     <div className='bios'>
       {biosData.length > 0 && (
@@ -29,6 +44,16 @@ function Bios() {
             </a>
           </div>
           <div className='right-half'>
+            <form onSubmit={handleFormSubmit}>
+              <label>
+                Update description:
+                <textarea value={newDescription} onChange={(event) => setNewDescription(event.target.value)} />
+              </label>
+              <button type="submit">Save</button>
+            </form>
+            <div className='description-controls'>
+              <button className='delete-button' onClick={handleDeleteButtonClick}>Delete</button>
+            </div>
             <blockquote className='bios-desc' >
               <p>
                 {biosData[id].description}

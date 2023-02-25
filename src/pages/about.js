@@ -22,7 +22,7 @@ export default function About() {
       <div className='right-half'>
         <blockquote className='bios-desc'>
           <h1>Misson Statement</h1>
-          <p>Im the boss</p>
+          <p>Im the bossddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
         </blockquote>
         <blockquote className='bios-desc'>
           <h1>Bio Thing</h1>

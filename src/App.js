@@ -49,36 +49,36 @@ export default function Navigation() {
           <li className="services-link">
                 <Link to="/bios">Bios</Link>    
                 <ul className="services-dropdown">
-                  <li><Link to="/bios/0">James</Link></li>
-                  <li><Link to="/bios/1">Jeremy</Link></li>
-                  <li><Link to="/bios/2">Zach</Link></li>
-                  <li><Link to="/bios/3">Danny</Link></li>
-                  <li><Link to="/bios/4">Jarelle</Link></li>
-                  <li><Link to="/bios/5">Rachelle</Link></li>
-                  <li><Link to="/bios/6">Bill</Link></li>
-                  <li><Link to="/bios/7">Jerm</Link></li>
-                  <li><Link to="/bios/8">Shaina</Link></li>
-                  <li><Link to="/bios/9">Darrell</Link></li>
+                  <li><Link to="/bios/0">Danny</Link></li>
+                  <li><Link to="/bios/1">Jackson</Link></li>
+                  <li><Link to="/bios/2">Abraham</Link></li>
+                  <li><Link to="/bios/3">Nikki</Link></li>
+                  <li><Link to="/bios/4">Terri</Link></li>
+                  <li><Link to="/bios/5">Maxine</Link></li>
+                  <li><Link to="/bios/6">Ashton</Link></li>
+                  <li><Link to="/bios/7">Jeff</Link></li>
+                  <li><Link to="/bios/8">Shay</Link></li>
+                  <li><Link to="/bios/9">Carly</Link></li>
                 </ul>
           </li>
           <li><Link to="/about">About Us</Link></li>
           <div className='social-media-container'>
             <div >
-              <a className="logo" href={"https://www.facebook.com/carekaraoke"}>
+              <a className="logo" href={"https://www.facebook.com"}>
                 <img alt="facebook" src={fb} /> 
               </a>
-              <a className="logo" href={"https://twitter.com/CareKaraoke"}>
+              <a className="logo" href={"https://twitter.com"}>
                 <img alt="twitter" src={twitter} /> 
               </a>
-              <a className='logo' href={"https://www.instagram.com/carekaraoke/"}>
+              <a className='logo' href={"https://www.instagram.com"}>
                 <img alt="insta" src={insta} /> 
               </a>
-              <a className='logo' href={"mailto:carekaraoke20@gmail.com"}>
+              <a className='logo' href={"https://mail.google.com/mail/u/0/#inbox?compose=new"}>
                 <img alt="mail" src={mail} /> 
               </a>
             </div>
             <div>
-              <h3>847-209-0823</h3>
+              <h3>773-773-7773</h3>
             </div>
           </div>
         </ul>
