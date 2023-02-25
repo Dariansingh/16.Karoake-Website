@@ -47,18 +47,18 @@ export default function Navigation() {
                 </ul>
           </li>
           <li className="services-link">
-                <Link to="/Bios">Bios</Link>    
+                <Link to="/bios">Bios</Link>    
                 <ul className="services-dropdown">
-                  <li><Link to="/Bios/0">James</Link></li>
-                  <li><Link to="/Bios/1">Jeremy</Link></li>
-                  <li><Link to="/Bios/2">Zach</Link></li>
-                  <li><Link to="/Bios/3">Danny</Link></li>
-                  <li><Link to="/Bios/4">Jarelle</Link></li>
-                  <li><Link to="/Bios/5">Rachelle</Link></li>
-                  <li><Link to="/Bios/6">Bill</Link></li>
-                  <li><Link to="/Bios/7">Jerm</Link></li>
-                  <li><Link to="/Bios/8">Shaina</Link></li>
-                  <li><Link to="/Bios/9">Darrell</Link></li>
+                  <li><Link to="/bios/0">James</Link></li>
+                  <li><Link to="/bios/1">Jeremy</Link></li>
+                  <li><Link to="/bios/2">Zach</Link></li>
+                  <li><Link to="/bios/3">Danny</Link></li>
+                  <li><Link to="/bios/4">Jarelle</Link></li>
+                  <li><Link to="/bios/5">Rachelle</Link></li>
+                  <li><Link to="/bios/6">Bill</Link></li>
+                  <li><Link to="/bios/7">Jerm</Link></li>
+                  <li><Link to="/bios/8">Shaina</Link></li>
+                  <li><Link to="/bios/9">Darrell</Link></li>
                 </ul>
           </li>
           <li><Link to="/about">About Us</Link></li>
