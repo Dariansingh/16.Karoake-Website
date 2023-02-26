@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className='bios'>
       <div className='left-half'>
-        <h1>Jean</h1>
+        <h1>Our Pictures</h1>
         <Carousel interval={2250}>
           {Photos.map(photo => (
             <Carousel.Item key={photo.id}>
@@ -22,7 +22,7 @@ export default function About() {
       <div className='right-half'>
         <blockquote className='bios-desc'>
           <h1>Misson Statement</h1>
-          <p>Im the bossddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+          <p>Im the boss</p>
         </blockquote>
         <blockquote className='bios-desc'>
           <h1>Bio Thing</h1>

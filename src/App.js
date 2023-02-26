@@ -2,7 +2,6 @@ import React from 'react';
 import Home from "./pages/home.js";
 import Bios from "./pages/bios.js";
 import About from "./pages/about.js";
-import Everyone from "./pages/everyone.js";
 import NotFound from "./pages/notfound.js";
 import Services from "./pages/services.js";
 
@@ -15,7 +14,6 @@ import mail from "./images/icons/mail.png"
 //Styling
 import "./style/app.scss";
 import "./style/header.scss"
-
 
 import {
   BrowserRouter as Router,
@@ -30,7 +28,7 @@ export default function Navigation() {
   return (
     <>
     <div className='contain'>
-      <h1 className='header'>Care Karaoke</h1>
+      <h1 className='header'>Karaoke Centr</h1>
     </div>
       <div className={`navbar`}>
         <ul>
@@ -47,7 +45,7 @@ export default function Navigation() {
                 </ul>
           </li>
           <li className="services-link">
-                <Link to="/bios">Bios</Link>    
+                Bios  
                 <ul className="services-dropdown">
                   <li><Link to="/bios/0">Danny</Link></li>
                   <li><Link to="/bios/1">Jackson</Link></li>
@@ -89,7 +87,6 @@ export default function Navigation() {
           <Route path="/services/:id" element={<Services />} />
           <Route path="/bios/:id" element={<Bios />} />
           <Route path="/about" element={<About />} />
-          <Route path="/bios" element={<Everyone />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

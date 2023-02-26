@@ -22,7 +22,7 @@ export default function Services() {
             </div>
             <div className='bottom-half'>
                 <a className='img-container'>
-                    <img className='services-img' alt="services-photo-2" src={Data[id].imageUrl}/>
+                    <img className='services-img' alt="services-photo-2" src={Data[id].secondImageUrl}/>
                 </a>
             </div>
         </div>
