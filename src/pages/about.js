@@ -22,11 +22,7 @@ export default function About() {
       <div className='right-half'>
         <blockquote className='bios-desc'>
           <h1>Misson Statement</h1>
-          <p>Im the boss</p>
-        </blockquote>
-        <blockquote className='bios-desc'>
-          <h1>Bio Thing</h1>
-          <p>additional text</p>
+          <p>Our mission is to provide high-quality karaoke entertainment and services to create unforgettable experiences for our customers.</p>
         </blockquote>
       </div>
     </div>
