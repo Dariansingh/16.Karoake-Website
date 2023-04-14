@@ -7,7 +7,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 20%);
+  transform: translate(-50%, 5%);
   max-width: 850px; /* or whatever size you want */
 }
 
