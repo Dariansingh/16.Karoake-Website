@@ -8,14 +8,19 @@ function Bios() {
   const [newDescription, setNewDescription] = useState(''); // Initializing a state variable for new bios description
   const { id } = useParams(); // Retrieving the "id" parameter from the URL
 
-  useEffect(() => { // Using a hook to fetch bios data when the component mounts
+  useEffect(() => {
     fetchBios()
       .then(data => {
-        console.log(data); // Logging the data to the console
-        setBiosData(data); // Setting the state variable to the fetched data
+        const updatedData = data.map(bio => {
+          return {
+            ...bio,
+            description: "Comment on this person"
+          }
+        });
+        setBiosData(updatedData);
       })
       .catch(error => {
-        console.error(error); // Logging any errors to the console
+        console.error(error);
       });
   }, []);
 
