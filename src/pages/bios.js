@@ -52,7 +52,7 @@ function Bios() {
               <img className='bios-img' alt="bios-photo" src={biosData[id].imageUrl} />
             </a>
           </div>
-          {/* Right half of the bios page */}
+          {/*  of the bios page */}
           <div className='right-half'>
             {/* Form for updating the description */}
             <form onSubmit={handleFormSubmit}>

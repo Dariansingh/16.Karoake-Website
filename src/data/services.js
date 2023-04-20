@@ -16,7 +16,7 @@ export const Data = [
     {
         "id": 2,
         "name": "Digital Service",
-        "description": "We offer a digital song catalog and request system, online booking, digital signage, and social media integration to enhance the karaoke experience.",
+        "description": "We offer a digital song catalog and request system, online booking, digital signage, and social media integration to enhance the karaoke experience. Our state-of-the-art technology allows for seamless song selection and transitions, while our user-friendly interface makes it easy for guests to find and request their favorite songs. Additionally, our online booking system streamlines the reservation process, and our digital signage and social media integration help to create a fun and engaging atmosphere for all.",
         "imageUrl": require("../images/services/ds1.jpg"),
         "secondImageUrl": require("../images/services/ds2.jpg")
     },
